@@ -1,0 +1,15 @@
+[package]
+name = "biomereg"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.6.4", features = ["derive"] }
+csv = "1.4.0"
+rand = "0.9"
+rayon = "1.12.0"
+smartcore = "0.5.3"
+tokio = { version = "1.53.1", features = ["full"] }
+rand_distr = "0.4"
+bhtsne = "0.7.12"
+vornix-banner = "0.0.1"
